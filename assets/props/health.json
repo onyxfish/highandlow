@@ -1,0 +1,26 @@
+{
+    "name": "Health",
+    "image": {
+        "name": "health.png",
+        "size": [10, 10]
+    },
+    "animations": [],
+    "collision": {
+        "size": [10, 10],
+        "offset": [0, 0]
+    },
+    "physics": {
+        "gravity": 0
+    },
+    "behaviors": [
+        {
+            "name": "HealPlayer",
+            "config": {
+                "healing": 20
+            }
+        }, {
+            "name": "PlayerPickup",
+            "config": {}
+        }
+    ]
+}

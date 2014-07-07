@@ -1,0 +1,13 @@
+.DS_Store
+
+*.pyc
+*.swf
+*.swp
+
+/export
+/content
+
+project.xml.hxml
+index.html
+
+work

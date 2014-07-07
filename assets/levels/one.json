@@ -1,0 +1,20 @@
+{
+    "title": "Test",
+    "map": "one.json",
+    "tiles": "tiles5x5.png",
+    "nextLevel": "two.json",
+    "props": [
+        {
+            "name": "health.json",
+            "position": [160,160]
+        },{
+            "name": "crate.json",
+            "position": [80, 120]
+        }
+    ],
+    "spawnPoints": [
+        [28, 4],
+        [2, 10],
+        [28, 10]
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Spawner",
+    "image": {
+        "name": "spawner.png",
+        "size": [20, 20]
+    },
+    "animations": [],
+    "collision": {
+        "size": [20, 20],
+        "offset": [0, 0]
+    },
+    "physics": {
+        "gravity": 0
+    },
+    "behaviors": [
+    ]
+}

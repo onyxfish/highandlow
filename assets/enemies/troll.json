@@ -1,0 +1,50 @@
+{
+    "name": "Troll",
+    "spawnTerror": 5,
+    "fullHealth": 20,
+    "image": {
+        "name": "troll.png",
+        "size": [15, 14]
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "frames": [0]
+        },{
+            "name": "run",
+            "frames": [0],
+            "speed": 10
+        },{
+            "name": "jump",
+            "frames": [0],
+            "speed": 5
+        }
+    ],
+    "collision": {
+        "size": [15, 14],
+        "offset": [0, 0]
+    },
+    "physics": {
+        "gravity": 150
+    },
+    "behaviors": [
+        {
+            "name": "Walk",
+            "config": {
+                "velocity": 40
+            }
+        }, {
+            "name": "HurtOnContact",
+            "config": {
+                "damage": 10
+            }
+        }, {
+            "name": "ShootMissile",
+            "config": {
+                "projectile": "missile.json",
+                "cooldown": 3,
+                "velocity": [100, 0]
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Crate",
+    "image": {
+        "name": "crate.png",
+        "size": [10, 10]
+    },
+    "animations": [],
+    "collision": {
+        "size": [10, 10],
+        "offset": [0, 0]
+    },
+    "physics": {
+        "gravity": 0
+    },
+    "behaviors": [
+        {
+            "name": "DropLoot",
+            "config": {}
+        }, {
+            "name": "Breakable",
+            "config": {}
+        }
+    ]
+}

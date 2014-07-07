@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<app title="High and Low" file="highandlow" main="Game" version="0.0.1" company="High and Low" preloader="Preloader" />
+
+	<window width="1280" height="800" fps="60" orientation="landscape" fullscreen="true" hardware="true" vsync="true" background="0x333333" />
+
+	<set name="BUILD_DIR" value="export" />
+	<classpath name="source" />
+
+	<assets path="assets" />
+
+	<haxelib name="openfl" />
+    <haxelib name="flixel" />
+
+    <!-- Disable features we don't use -->
+    <haxedef name="FLX_NO_TOUCH" />
+    <haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+
+	<!-- Disable the Flixel core debugger. -->
+    <haxedef name="FLX_NO_DEBUG" unless="debug" />
+</project>

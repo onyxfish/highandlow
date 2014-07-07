@@ -1,0 +1,34 @@
+{
+    "name": "Sword",
+    "image": {
+        "name": "green_missle.png",
+        "size": [10, 6]
+    },
+    "animations": [
+        {
+            "name": "default",
+            "frames": [0, 1],
+            "speed": 6
+        }
+    ],
+    "collision": {
+        "size": [10, 6],
+        "offset": [0, 0]
+    },
+    "physics": {
+        "gravity": 0
+    },
+    "behaviors": [
+        {
+            "name": "HurtEnemy",
+            "config": {
+                "damage": 20
+            }
+        }, {
+            "name": "Temporary",
+            "config": {
+                "duration": 0.1
+            }
+        }
+    ]
+}
